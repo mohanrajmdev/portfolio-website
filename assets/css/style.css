@@ -680,6 +680,7 @@ header ul li a.active {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   transition: 0.5s ease;
+  width: fit-content;
 }
 
 .experience-card,
@@ -808,9 +809,9 @@ header ul li a.active {
 }
 
 .logo-svg {
-  margin-top: 3%;
+  margin-top: 5.5%;
   height:11rem;
-  width:80rem;
+  width:366.4px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
@@ -901,11 +902,11 @@ header ul li a.active {
 
 .achievement-cards-div {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 1rem 1rem;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .certificate-card {
@@ -915,7 +916,7 @@ header ul li a.active {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 1.5rem;
+  padding: 1rem;
   transition: all 0.3s ease;
 }
 
@@ -945,13 +946,14 @@ header ul li a.active {
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
-  margin: 15px 0 0;
+  margin: 15px;
 }
 
 .card-subtitle {
   color: #666;
   font-size: 17px;
   line-height: 1.5rem;
+  margin:10px;
 }
 
 .certificate-card-footer {
@@ -1132,7 +1134,7 @@ footer ul li a.active {
   visibility: visible;
 }
 .calculator-link{
-  padding:10px;
+  padding:5px;
   margin:10px;
 }
 .calculator-link h1{
